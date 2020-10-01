@@ -1,0 +1,49 @@
+/* we want our top bar to go right to the top */
+body {
+	margin: 0;
+}
+
+.header {
+	background-color: #2DAACD;
+	height: 40px;
+}
+
+.header ul  {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* it's best practice do use ul li instead of just li? */
+.header ul li {
+	display: inline-block;
+	margin-right:10px;
+	margin-left:10px;
+	line-height: 40px;
+}
+
+#menu-right {
+	float:right;
+}
+
+/* Add some space on each side of the logo */
+#logo {
+	margin-right:20px;
+	margin-left:10px;
+}
+
+.main {
+	padding: 10px;
+}
+
+/* make all links in header white */
+.header a {
+	color:white;
+	text-decoration: none;
+}
+
+.domain {
+	color: green;
+	font-weight: bold;
+}

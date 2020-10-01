@@ -1,0 +1,36 @@
+body{
+  margin:0;
+}
+
+.header {
+  background-color: #2DAACD;
+}
+
+.header-list {
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.header-list li {
+  background-color:black;
+  margin:0px;
+}
+
+.list-left {
+  display: inline-block;
+  background-color:red;
+  margin: 20px;
+}
+
+.list-right {
+  float:right;
+
+}
+
+
+.header-list a{
+  color:white;
+  text-decoration:none;
+}
